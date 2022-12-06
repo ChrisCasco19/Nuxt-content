@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1,
+		"title": "Pray is the answer",
+		"autor": "By Guidedsteps",
+		"description": "The Daily Living Study Bible has been one of the best-selling study Bibles for many years, and now it's better than ever!, The Daily Living Study Bible has been one of the best-selling study Bibles for many years, and now it's better than ever!, The Daily Living Study Bible has been one of the best-selling study Bibles for many years, and now it's better than ever!,The Daily Living Study Bible has been one of the best-selling study Bibles for many years, and now it's better than ever!,The Daily Living Study Bible has been one of the best-selling study Bibles for many years, and now it's better than ever!",
+		"category": "Bibles",
+		"image": "https://res.cloudinary.com/guidedsteps/image/upload/v1668573330/orar-correctamente-si_opt.png",
+		"rating": { "rate": 3.9, "count": 120 }
+	},
+	{
+		"id": 2,
+		"title": "The temple of god",
+		"autor": "By Guidedsteps",
+		"description": "Compact Bible 12 x 16.5 cm, imitation black leather, gold edge. Letter approx 8 points, concordance, marker tape, references and concordance. 1436 pages., Compact Bible 12 x 16.5 cm, imitation black leather, gold edge. Letter approx 8 points, concordance, marker tape, references and concordance. 1436 pages. Compact Bible 12 x 16.5 cm, imitation black leather, gold edge. Letter approx 8 points, concordance, marker tape, references and concordance. 1436 pages., Compact Bible 12 x 16.5 cm, imitation black leather, gold edge. Letter approx 8 points, concordance, marker tape, references and concordance. 1436 pages., ",
+		"category": "Bibles",
+		"image": "https://res.cloudinary.com/guidedsteps/image/upload/v1628285668/WLAUMC_Sanctuary_interior_nyxfsp.jpg",
+		"rating": { "rate": 4.1, "count": 259 }
+	},
+	{
+		"id": 3,
+		"title": "The way to god",
+		"autor": "By Guidedsteps",
+		"description": "Reina Valera Bible 1960. Super Giant Letter 18 points, concordance, silver edge, words of Jesus in red, with index, maps, Reina Valera Bible 1960. Super Giant Letter 18 points, concordance, silver edge, words of Jesus in red, with index, maps, Reina Valera Bible 1960. Super Giant Letter 18 points, concordance, silver edge, words of Jesus in red, with index, maps, Reina Valera Bible 1960. Super Giant Letter 18 points, concordance, silver edge, words of Jesus in red, with index, maps",
+		"category": "Bibles",
+		"image": "https://res.cloudinary.com/guidedsteps/image/upload/v1614787578/IMG_1570_ezn4tm.jpg",
+		"rating": { "rate": 4.7, "count": 500 }
+	},
+	{
+		"id": 4,
+		"title": "When i feel alone",
+		"autor": "By Guidedsteps",
+		"description": "Contemporary Reina Valera Bible, Giant Print 14 points approx, imitation blue leather, silver edge, words of Jesus in Red, aids for the reader. Size 18 x 24cm, Contemporary Reina Valera Bible, Giant Print 14 points approx, imitation blue leather, silver edge, words of Jesus in Red, aids for the reader. Size 18 x 24cm, Contemporary Reina Valera Bible, Giant Print 14 points approx, imitation blue leather, silver edge, words of Jesus in Red, aids for the reader. Size 18 x 24cm",
+		"category": "Bibles",
+		"image": "https://res.cloudinary.com/guidedsteps/image/upload/v1648847573/path5.jpg",
+		"rating": { "rate": 2.1, "count": 430 }
+	},
+	{
+		"id": 5,
+		"title": "God guides my steps",
+		"autor": "By Guidedsteps",
+		"description": "Reina Valera 1960 Bible, Hard Cover, Word of Jesus in Red, Concordance. Reina Valera 1960 Bible, Hard Cover, Word of Jesus in Red, Concordance. Reina Valera 1960 Bible, Hard Cover, Word of Jesus in Red, Concordance. Reina Valera 1960 Bible, Hard Cover, Word of Jesus in Red, Concordance. Reina Valera 1960 Bible, Hard Cover, Word of Jesus in Red, Concordance. Reina Valera 1960 Bible, Hard Cover, Word of Jesus in Red, Concordance.",
+		"category": "Bibles",
+		"image": "https://res.cloudinary.com/guidedsteps/image/upload/v1648847574/path3.jpg",
+		"rating": { "rate": 4.6, "count": 400 }
+	}
+]
