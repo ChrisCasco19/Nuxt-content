@@ -26,9 +26,12 @@
 						:key="`blogNavItem-${b._path}-${i}`"
 					>
 						<div class="py-5 border-2 rounded-lg px-7">
-							<h2 class="text-lg font-bold underline text-white">
-								{{ b.title }}
-							</h2>
+							<div class="flex justify-between">
+								<h2 class="text-lg font-bold underline text-white">
+									{{ b.title }}
+								</h2>
+								<img src="https://res.cloudinary.com/guidedsteps/image/upload/v1648827271/guidedsteps_color_mark_white.svg" class="w-10">
+							</div>
 							<!-- Loop over files inside the content dir -->
 							<ul
 								v-if="b.children"
@@ -56,11 +59,6 @@
 							</ul>
 						</div>
 					</template>
-				</div>
-				<div class="flex">
-					<img src="https://res.cloudinary.com/guidedsteps/image/upload/v1648756929/white_guidedsteps_v4_color_mark_text_copy.svg" class="w-[200px] ml-16 pt-6"/>
-					<img src="https://res.cloudinary.com/guidedsteps/image/upload/v1665003764/Slice_5_1.png" class="w-[90px] ml-56 pt-6"/>
-					<img src="https://res.cloudinary.com/guidedsteps/image/upload/v1648827271/guidedsteps_color_mark_white.svg" class="w-[90px] ml-72 pt-6"/>
 				</div>
 			</section>
 		</main>

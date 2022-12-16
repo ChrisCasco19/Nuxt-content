@@ -2,6 +2,7 @@
 
 ## 1. Keep a prayer journal
 
+![](https://res.cloudinary.com/guidedsteps/image/upload/v1648827271/guidedsteps_color_mark_white.svg){.inline.w-5.h-5}
 Prayer is probably the most essential part of a Christian's life. That is why your prayer life should be treated as a priority. The best way to do this is to keep a prayer journal. Your prayer list should have a designated place.
 
 > [Prayers Website](https://todoendios.com/peticiones-de-oracion-como-se-hacen-y-ejemplos//)

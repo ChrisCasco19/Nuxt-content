@@ -36,6 +36,11 @@
 			link: "/articles",
 		},
 		{
+			name: "Add Articles",
+			icon: "material-symbols:add-box-outline",
+			link: "/addArticle",
+		},
+		{
 			name: "About",
 			icon: "mdi:about-circle-outline",
 			link: "/about",

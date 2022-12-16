@@ -41,7 +41,7 @@
 					</div>
 					<div class="grid grid-cols-1 lg:grid-cols-4 gap-10 lg:mt-20">
 						<template
-							v-for="(p, i) in filterProducts"
+							v-for="(p, i) in data"
 							:key="`product-${i}-${p.id}`"
 						>
 							<Discount
@@ -61,7 +61,7 @@
 								<div class="p-3">
 									<h2 class="text-xs">{{ p.title }}</h2>
 									<p class="font-bold text-sm mt-2">
-										{{ p.autor }}
+										{{ p.category }}
 									</p>
 								</div>
 							</NuxtLink>
@@ -74,12 +74,18 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
 	// Shoutout to the Fake store API
 	// https://fakestoreapi.com/docs
 
 	const { data: products } = await useAsyncData("products", () => {
 		return queryContent("merch").find();
 	});
+
+	const data = await fetch('https://fakestoreapi.com/products/')
+  .then(res=>res.json())
+  .then((json) => json)
+	console.log('data', data)
 
 	// create an array of categories from the products
 	const categories = products.value[0].body.reduce((acc, product) => {
@@ -108,13 +114,6 @@
 		}
 	});
 
-	// function used to format the price
-	const formatPrice = (price) => {
-		return new Intl.NumberFormat("en-US", {
-			style: "currency",
-			currency: "USD",
-		}).format(price);
-	};
 
 	// function used to filter the products by category
 	const filterProducts = computed(() => {
@@ -132,6 +131,7 @@
 	useHead({
 		title: "Content Merch",
 	});
+
 </script>
 
 <style></style>
