@@ -30,7 +30,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const title = ref('')
+const title = ref()
 const description = ref('')
 const category = ref('')
 const author = ref('')
