@@ -7,21 +7,21 @@
     <div class="pt-16">
       <div class="flex justify-center">
         <label class="pr-4 text-3xl text-white">Email Address</label>
-        <input type="email" class="w-[12rem]">
+        <input type="email" class="w-[12rem]" v-model="email">
         <label class="px-4 text-3xl text-white">First Name</label>
-        <input type="text" class="w-[12rem]">
+        <input type="text" class="w-[12rem]" v-model="firstName">
       </div>
       <div class="flex justify-center pt-8">
         <label class="text-3xl mx-8 text-white">Last Name</label>
-        <input type="text" class="w-[12rem] mr-2">
+        <input type="text" class="w-[12rem] mr-2" v-model="lastName">
         <label class="text-3xl ml-8 mr-8 text-white">Country</label>
-        <input type="text" class="w-[12rem]">
+        <input type="text" class="w-[12rem]" v-model="country">
       </div>
       <div class="flex justify-center pt-8">
         <label for="number" class="mx-8 text-3xl text-white">Cell phone</label>
-        <input type="text" class="w-[12rem]">
+        <input type="text" class="w-[12rem]" v-model="cellPhoneNumber">
         <label for="email" class="pl-4 pr-4 text-3xl text-white">Code Zone</label>
-        <input type="text" class="w-[12rem]">
+        <input type="text" class="w-[12rem]" v-model="codeZone">
       </div>
       <div class="flex justify-center text-white font bold text-3xl pt-8">
         <label for="">Comment</label>
@@ -34,4 +34,15 @@
       </div>
     </div>
   </header>
-  </template>
+</template>
+<script setup>
+import { ref } from 'vue'
+
+const email = ref('')
+const firstName = ref('')
+const lastName = ref('')
+const country = ref('')
+const cellPhoneNumber = ref()
+const codeZone = ref()
+
+</script>
