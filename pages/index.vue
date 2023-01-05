@@ -54,7 +54,7 @@
 								<li
 									class="text-sm text-white transition-all list-item hover:text-yellow-500"
 								>
-									<NuxtLink :to="`/blog${b._path}`"> Get Started </NuxtLink>
+									<NuxtLink :to="`/blog${b._path}`"> Show More </NuxtLink>
 								</li>
 							</ul>
 						</div>

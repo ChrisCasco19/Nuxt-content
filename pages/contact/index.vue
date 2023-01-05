@@ -7,21 +7,21 @@
     <div class="pt-16">
       <div class="flex justify-center">
         <label class="pr-4 text-3xl text-white">Email Address</label>
-        <input type="email" class="w-[12rem]" v-model="email">
+        <input type="email" class="w-[12rem]" v-model="email" placeholder="Enter your email">
         <label class="px-4 text-3xl text-white">First Name</label>
-        <input type="text" class="w-[12rem]" v-model="firstName">
+        <input type="text" class="w-[12rem]" v-model="firstName" placeholder="Enter your first Name">
       </div>
       <div class="flex justify-center pt-8">
         <label class="text-3xl mx-8 text-white">Last Name</label>
-        <input type="text" class="w-[12rem] mr-2" v-model="lastName">
+        <input type="text" class="w-[12rem] mr-2" v-model="lastName" placeholder="Enter your Last name">
         <label class="text-3xl ml-8 mr-8 text-white">Country</label>
-        <input type="text" class="w-[12rem]" v-model="country">
+        <input type="text" class="w-[12rem]" v-model="country" placeholder="Enter your Country">
       </div>
       <div class="flex justify-center pt-8">
         <label for="number" class="mx-8 text-3xl text-white">Cell phone</label>
-        <input type="text" class="w-[12rem]" v-model="cellPhoneNumber">
+        <input type="number" class="w-[12rem]" v-model="cellPhoneNumber" placeholder="Enter your Cell Phone number">
         <label for="email" class="pl-4 pr-4 text-3xl text-white">Code Zone</label>
-        <input type="text" class="w-[12rem]" v-model="codeZone">
+        <input type="text" class="w-[12rem]" v-model="codeZone" placeholder="Enter your Code zone">
       </div>
       <div class="flex justify-center text-white font bold text-3xl pt-8">
         <label for="">Comment</label>

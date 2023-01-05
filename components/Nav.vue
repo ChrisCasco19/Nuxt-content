@@ -1,6 +1,6 @@
 <template>
-	<header class="flex items-center justify-between h-20 px-[5%] lg:px-[15%] bg-[#173467]">
-		<NuxtLink to="/" class="text-2xl font-bold lg:text-4xl">
+	<header class="flex items-center justify-between h-20 px-[5%] lg:px-[10%] bg-[#173467]">
+		<NuxtLink to="/" class="text-xl font-bold lg:text-2xl">
 			<img src="https://res.cloudinary.com/guidedsteps/image/upload/v1648756929/white_guidedsteps_v4_color_mark_text_copy.svg" class="w-[300px]"/>
 		</NuxtLink>
 		<nav class="flex items-center text-gray-600 space-x-7">
@@ -49,6 +49,16 @@
 			name: "Contact",
 			icon: "material-symbols:connect-without-contact",
 			link: "/contact",
+		},
+		{
+			name: "Meet the team",
+			icon: "material-symbols:connect-without-contact",
+			link: "/team",
+		},
+		{
+			name: "Faqs",
+			icon: "mdi:about-circle-outline",
+			link: "/faqs",
 		},
 	];
 </script>
